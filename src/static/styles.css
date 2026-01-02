@@ -1,3 +1,26 @@
+/* Controls for activities (search, sort) */
+#activities-controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+  align-items: center;
+}
+
+#search-input {
+  flex: 2;
+  padding: 8px 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#sort-select {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 16px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
